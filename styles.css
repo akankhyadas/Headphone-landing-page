@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display:flex;
+    text-decoration: none;
+    background-color: rgb(16, 16, 16);
+}
+.navlist{
+    display: flex;
+    height: 67px;
+    text-decoration: none;
+    
+}
+.navlist li{
+    list-style: none;
+    margin: 0 12px;
+    color: azure;  
+    text-decoration: none;
+}
+.navlist li a{
+    font-size:25px;
+    list-style: none;
+    margin: 0 12px;
+    color: azure;  
+    text-decoration: none
+}
+.navlist li a:hover{
+    font-size:25px;
+    margin: 0 12px;
+    color: grey;  
+    text-decoration: none
+}
+.home__container{
+    height: 585px;
+}
+.heading img{
+   width:68px;
+}
+.topleft{
+    width: 50%;
+    height: 50vh;
+    padding: 12px;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 23px;
+    font-size: 63px;
+    font-weight:bolder;
+    color: aqua;
+    margin-top: 64px;
+}
+.topright img {
+    display: block;
+    max-width: 250%;
+    margin-left: 650px;
+    position: relative; 
+    top: -322px;
+}
+
+.topright{
+    height: 200px;
+    width: 200px;
+}
+.heading{
+    color: azure;
+    font-size: 1.3rem;
+    margin: 0px;
+    font-style: normal;
+}
+
+.form-control{
+    padding: 2px 2px;
+    border: none;
+    margin-top: 47px;
+    margin-right: 16px;
+    font-size: 17px;
+
+}
+.btn1{
+    padding: 4px 12px ;
+    border: 2px solid aqua;
+    color:black;
+    margin-top: 8px;
+    background-color:#fff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 4px 12px;
+    border: 2px solid aqua;
+    color:black;
+    margin-top:8px;
+    background-color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+p{
+    font-style: normal;
+    color: azure;
+}
+h2{
+    margin: 10px;
+}
+.card img{
+    margin: 25px;
+    height: 270px;
+    width: 200px;
+}
+.card1 img{
+    margin-left: 3px;
+    height: 270px;
+    width: 350px;
+}
+.right{
+   justify-content: right;
+}
+.footer{
+    margin-top: 150px;
+    width:890px;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow:1;
+}
+h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
